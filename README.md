@@ -5,15 +5,15 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # On the reliability of large ensembles simulating the Northern Hemispheric winter stratospheric polar vortex
-**M. Öhlert, A. Kuchar, R. Eichinger, Ch. Jacobi**
+**[M. Öhlert](https://github.com/maoehlert), [A. Kuchar](https://github.com/kuchaale), R. Eichinger, [Ch. Jacobi](https://github.com/christophjacobi)**
 
 Submitted to [?](?).
 
 Code used to process and visualise the model and other data outputs in order to reproduce figures in the manuscript.
 Model data are available via  the Multi-Model Large Ensemble Archive
 (MMLEA) provided by the US CLIVAR (Climate and Ocean - Variability, Predictability, and Change) working group on large
-ensembles (Deser et al., 2020) as well as ensembles from the Coupled Model Intercomparison Project 6 (CMIP6, Eyring et al.,
-2016). All datasets already preprocessed can be found [here](?).
+ensembles ([Deser et al., 2020](https://www.nature.com/articles/s41558-020-0731-2)) as well as ensembles from the Coupled Model Intercomparison Project 6 (CMIP6; [Eyring et al.,
+2016](https://gmd.copernicus.org/articles/9/1937/2016/)). All datasets already preprocessed can be found [here]([https://data.mendeley.com/datasets/?).
 
 Notebooks for each individual figure as well as for two data tables are in the [`code/` directory](code), while the figures themselves are in the [`plots/` directory](plots).
 
