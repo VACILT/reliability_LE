@@ -17,4 +17,24 @@ ensembles (Deser et al., 2020) as well as ensembles from the Coupled Model Inter
 
 Notebooks for each individual figure as well as for two data tables are in the [`code/` directory](code), while the figures themselves are in the [`plots/` directory](plots).
 
+
 ### Figures
+|  #  | Figure                                                                                                                                                                                                    | Notebook                                                                              | Dependencies                                                                                                                                                             |
+|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1 | [Rank histograms of aspect ratio at 10 hPa](plots/aspect_ratio_10hPa.png) | [rank_histograms.py](code/rank_histograms.py) |
+|  2 | [Rank histograms of centroid latitude at 10 hPa](plots/centroid_latitude_10hPa.png}) | [rank_histograms.py](code/rank_histograms.py) |
+|  3 | [Rank histograms of centroid longitude at 10 hPa](plots/centroid_longitude_10hPa.png) | [rank_histograms.py](code/rank_histograms.py) |
+|  4 | [Rank histograms of kurtosis at 10 hPa](plots/kurtosis_10hPa.png) | [rank_histograms.py](code/rank_histograms.py) |
+|  5 | [Rank histograms of objective area at 10 hPa](plots/objective_area_10hPa.png) | [rank_histograms.py](code/rank_histograms.py) |
+|  6 | [AOC for displacement and split events](plots/areas_displacement_split.png) | [roc_diagrams.py](code/roc_diagrams.py) |
+
+
+#### Tables
+|  #  | Figure                                                                                                                                                                                                    | Notebook                                                                              | Dependencies                                                                                                                                                             |
+|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1 | [Analyzed climate model ensembles from CMIP5 and CMIP6](tables/models.tex)                                               |               | |
+
+#### Supplementary figures
+|  #  | Figure                                                                                                                                                                                                    | Notebook                                                                              | Dependencies                                                                                                                                                             |
+|:---:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  S1 | [?](plots/?)                                               | [?](code/?)                     | |
