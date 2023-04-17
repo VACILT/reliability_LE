@@ -1,0 +1,25 @@
+\begin{table}
+\centering
+\caption{Analyzed climate model ensembles from CMIP5 and CMIP6.}\label{tab:ensembles}
+\begin{tabular}{|l|c|c|c|c|c|l|}
+\tophline
+ Model & \begin{tabular}{c@{}c@{}c@{}}Ensemble\\members \end{tabular}&\begin{tabular}{c@{}c@{}c@{}}Horizontal\\resolution\\ (lat x lon) \end{tabular}&\begin{tabular}{c@{}c@{}}Uppermost level\\in the vertical\end{tabular}&\begin{tabular}{c@{}c@{}}Number of vertical \\levels\end{tabular}&Reference\\
+\middlehline
+CanESM2$^5$&        50& ~2.8°x2.8°& 1\,hPa      &35&\citet{Kirchmeyer2017}\\
+CanESM5&        35& ~2.8°x2.8°& 1\,hPa          &49&\citet{Swart2019}\\
+CESM2&          49& 0.9°x1.25°& 2.26\,hPa       &32&\citet{Danabasoglu2020}\\ 
+CNRM-CM6-1&     26& ~1.4°x1.4°& 86.4\,km        &91&\citet{Voldoire2019}\\
+GFDL-CM3$^5$&       20& ~2.0°x2.0°& 86.4\,km    &48&\citet{Donner2011}\\
+INM-CM5-0&      10& 2.0°x1.5°&  0.2\,hPa        &73&\citet{Volodin2018}\\
+IPSL-CM6A-LR&   32& ~2.5°x1.25°&80\,km          &79&\citet{Boucher2020}\\
+MIROC6&         10& ~1.4°x1.4°& 0.004\,hPa      &81&\citet{Tatebe2019}\\
+MPI-ESM1-2-LR&  30& 1.5°x1.5°&  0.01\,hPa       &47&\citet{Maher2019}\\
+MPI-ESM1-2-HR&  10& 0.4°x0.4°&  0.01\,hPa       &95&\citet{Muller2018}\\
+UKESM1-0-LL&    16& ~1.25°x1.9°& 85\,km         &85&\citet{Sellar2019}\\
+
+
+\bottomhline
+\end{tabular}
+\belowtable{%Note: Vertical resolution is defined as vertical resolution of the model between 100 and 1\,hPa or the model top, if it is lower \citep[see also][]{Wu2020,Hall2021}. 
+$^5$ Model is part of CMIP5, other models are part of CMIP6. All models except UKESM1-0-LL and CNRM-CM6-1 do not have interactive chemistry. CNRM-CM6-1 has no typical interactive chemistry scheme, but a simplified interactive chemistry.}
+\end{table}
