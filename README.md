@@ -13,7 +13,7 @@ Code used to process and visualise the model and other data outputs in order to 
 Model data are available via  the Multi-Model Large Ensemble Archive
 (MMLEA) provided by the US CLIVAR (Climate and Ocean - Variability, Predictability, and Change) working group on large
 ensembles ([Deser et al., 2020](https://www.nature.com/articles/s41558-020-0731-2)) as well as ensembles from the Coupled Model Intercomparison Project 6 (CMIP6; [Eyring et al.,
-2016](https://gmd.copernicus.org/articles/9/1937/2016/)). All datasets already preprocessed can be found [here]([https://data.mendeley.com/datasets/d6yg8ncppg/1).
+2016](https://gmd.copernicus.org/articles/9/1937/2016/)). All datasets already preprocessed can be found [here](https://data.mendeley.com/datasets/d6yg8ncppg/1).
 
 Notebooks for each individual figure as well as for two data tables are in the [`code/` directory](code), while the figures themselves are in the [`plots/` directory](plots).
 
