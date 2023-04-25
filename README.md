@@ -2,7 +2,9 @@
  [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-369/)
 --> 
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
+[![DOI](https://zenodo.org/badge/491078223.svg)](https://zenodo.org/badge/latestdoi/491078223) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # On the reliability of large ensembles simulating the Northern Hemispheric winter stratospheric polar vortex
 **[M. Öhlert](https://github.com/maoehlert), [A. Kuchar](https://github.com/kuchaale), R. Eichinger, [Ch. Jacobi](https://github.com/christophjacobi)**
