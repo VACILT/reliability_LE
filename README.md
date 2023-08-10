@@ -30,7 +30,7 @@ Notebooks for each individual figure as well as for two data tables are in the [
 |  3 | [Rank histograms of centroid longitude at 10 hPa](plots/centroid_longitude_10hPa.pdf) | [summary_plots.py](code/summary_plots.py) | [rank_histograms.py](code/rank_histograms.py), [rank_frequency_test.py](code/rank_frequency_test.py), [bias_spread.py](code/bias_spread.py) |
 |  4 | [Rank histograms of kurtosis at 10 hPa](plots/kurtosis_10hPa.pdf) | [summary_plots.py](code/summary_plots.py) | [rank_histograms.py](code/rank_histograms.py), [rank_frequency_test.py](code/rank_frequency_test.py), [bias_spread.py](code/bias_spread.py) |
 |  5 | [Rank histograms of objective area at 10 hPa](plots/objective_area_10hPa.pdf) | [summary_plots.py](code/summary_plots.py) | [rank_histograms.py](code/rank_histograms.py), [rank_frequency_test.py](code/rank_frequency_test.py), [bias_spread.py](code/bias_spread.py) |
-|  6 | [AOC for displacement and split events](plots/areas_displacement_split.pdf) | [roc_diagrams.py](code/roc_diagrams.py) |  |
+|  6 | [AOC for displacement and split events](plots/areas_displacement_split_new.pdf) | [roc_diagrams.py](code/roc_diagrams.py) |  |
 
 
 #### Tables
