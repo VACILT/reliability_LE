@@ -7,9 +7,9 @@
 [![DOI](https://zenodo.org/badge/491078223.svg)](https://zenodo.org/badge/latestdoi/491078223) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # On the reliability of large ensembles simulating the Northern Hemispheric winter stratospheric polar vortex
-**[M. Öhlert](https://github.com/maoehlert), [A. Kuchar](https://github.com/kuchaale), R. Eichinger, [Ch. Jacobi](https://github.com/christophjacobi)**
+**[A. Kuchar](https://github.com/kuchaale), [M. Öhlert](https://github.com/maoehlert), R. Eichinger, [Ch. Jacobi](https://github.com/christophjacobi)**
 
-Submitted to [?](?).
+Submitted to [WCD](?).
 
 Code used to process and visualise the model and other data outputs in order to reproduce figures in the manuscript.
 Model data are available via  the Multi-Model Large Ensemble Archive
@@ -50,4 +50,6 @@ Notebooks for each individual figure as well as for two data tables are in the [
 |  S7 | [Rank histograms of centroid latitude at 100 hPa](plots/centroid_latitude_100hPa.png) | [summary_plots.py](code/summary_plots.py) | [rank_histograms.py](code/rank_histograms.py), [rank_frequency_test.py](code/rank_frequency_test.py), [bias_spread.py](code/bias_spread.py) | 
 |  S8 | [Rank histograms of centroid longitude at 100 hPa](plots/centroid_longitude_100hPa.png) | [summary_plots.py](code/summary_plots.py) | [rank_histograms.py](code/rank_histograms.py), [rank_frequency_test.py](code/rank_frequency_test.py), [bias_spread.py](code/bias_spread.py) |   
 |  S9 | [Rank histograms of kurtosis at 100 hPa](plots/kurtosis_100hPa.png) | [summary_plots.py](code/summary_plots.py) | [rank_histograms.py](code/rank_histograms.py), [rank_frequency_test.py](code/rank_frequency_test.py), [bias_spread.py](code/bias_spread.py) |   
-|  S10 | [Rank histograms of objective area at 100 hPa](plots/objective_area_100hPa.png) | [summary_plots.py](code/summary_plots.py) | [rank_histograms.py](code/rank_histograms.py), [rank_frequency_test.py](code/rank_frequency_test.py), [bias_spread.py](code/bias_spread.py) |   
+|  S10 | [Rank histograms of objective area at 100 hPa](plots/objective_area_100hPa.png) | [summary_plots.py](code/summary_plots.py) | [rank_histograms.py](code/rank_histograms.py), [rank_frequency_test.py](code/rank_frequency_test.py), [bias_spread.py](code/bias_spread.py) | 
+|  S11 | [Modal DJFM centroid latitude and displacement SSWs per decade in large ensembles compared with ERA5](plots/displacement_frequency_vs_mode_all.pdf) | [SSW_frequency_vs_mode_Hallet2021.ipynb](code/SSW_frequency_vs_mode_Hallet2021.ipynb) | | 
+|  S12 | [RModal DJFM aspect ratio and split SSWs per decade in large ensembles compared with ERA5](plots/split_frequency_vs_mode_all.pdf) | [SSW_frequency_vs_mode_Hallet2021.ipynb](code/SSW_frequency_vs_mode_Hallet2021.ipynb) |  | 
