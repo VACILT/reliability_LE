@@ -1,12 +1,16 @@
-<!--- [![DOI](https://zenodo.org/badge/382086874.svg)](https://zenodo.org/badge/latestdoi/382086874)
+<!--- 
+ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8234027.svg)](https://doi.org/10.5281/zenodo.8234027)
  [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-369/)
 --> 
 
 
 
-[![DOI](https://zenodo.org/badge/491078223.svg)](https://zenodo.org/badge/latestdoi/491078223) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# On the reliability of large ensembles simulating the Northern Hemispheric winter stratospheric polar vortex
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8234027.svg)](https://doi.org/10.5281/zenodo.8234027)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+# Large ensemble assessment of Arctic SPV
 **[A. Kuchar](https://github.com/kuchaale), [M. Öhlert](https://github.com/maoehlert), R. Eichinger, [Ch. Jacobi](https://github.com/christophjacobi)**
 
 Submitted to [WCD](?).
