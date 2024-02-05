@@ -1,0 +1,87 @@
+\begin{longtable}{llrrlllllll}
+\caption{Summary table including metrics: bias, spread and AOC. AOC related to displacement and split events is in the table associated with centroid latitude and aspect ratio, respectively.} \label{tab:summary} \\
+\toprule
+ &  & \multicolumn{3}{r}{100 hPa} & \multicolumn{3}{r}{50 hPa} & \multicolumn{3}{r}{10 hPa} \\
+ &  & bias & spread & AUC & bias & spread & AUC & bias & spread & AUC \\
+\midrule
+\endfirsthead
+\caption[]{Summary table including metrics: bias, spread and AOC. AOC related to displacement and split events is in the table associated with centroid latitude and aspect ratio, respectively.} \\
+\toprule
+ &  & \multicolumn{3}{r}{100 hPa} & \multicolumn{3}{r}{50 hPa} & \multicolumn{3}{r}{10 hPa} \\
+ &  & bias & spread & AUC & bias & spread & AUC & bias & spread & AUC \\
+\midrule
+\endhead
+\midrule
+\multicolumn{11}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+\multirow[t]{5}{*}{CanESM2} & aspect ratio & 590.99 & 213.27 &  & 210.74 & 54.06 &  & 148.61 & 7.10 & 0.55 \\
+ & objective area & 343.13 & 122.48 &  & 15.73 & 77.34 &  & 197.27 & 128.91 &  \\
+ & kurtosis & 11.78 & 226.71 &  & 591.70 & 240.18 &  & 5525.35 & 3790.66 &  \\
+ & centroid latitude & 418.52 & 79.54 &  & 336.71 & 53.66 &  & 781.14 & 47.83 & 0.66 \\
+ & centroid longitude & 118.84 & 66.86 &  & 3.13 & 141.43 &  & 224.01 & 13.95 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{CanESM5} & aspect ratio & 184.78 & 48.57 &  & 266.95 & 59.42 &  & 772.06 & 140.74 & 0.45 \\
+ & objective area & 894.65 & 1.51 &  & 1520.33 & 23.75 &  & 425.06 & 11.87 &  \\
+ & kurtosis & 118.64 & 411.00 &  & 16.80 & 353.75 &  & 4577.71 & 4368.73 &  \\
+ & centroid latitude & 290.00 & 53.74 &  & 276.07 & 65.13 &  & 19.30 & 6.20 & 0.59 \\
+ & centroid longitude & 44.20 & 47.26 &  & 1.48 & 15.65 &  & 120.33 & 224.55 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{CESM2} & aspect ratio & 104.88 & 10.34 &  & 271.81 & 32.92 &  & 576.90 & 127.07 & 0.59 \\
+ & objective area & 334.06 & 91.54 &  & 476.74 & 166.81 &  & 1587.79 & 344.51 &  \\
+ & kurtosis & 6.82 & 217.62 &  & 61.09 & 378.66 &  & 2239.48 & 2203.39 &  \\
+ & centroid latitude & 252.67 & 88.90 &  & 366.22 & 115.06 &  & 233.96 & 21.51 & 0.61 \\
+ & centroid longitude & 26.31 & 50.33 &  & 0.01 & 33.15 &  & 67.85 & 56.46 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{CNRM-CM6-1} & aspect ratio & 6.74 & 0.72 &  & 14.67 & 0.03 &  & 108.77 & 0.28 & 0.64 \\
+ & objective area & 3.00 & 5.46 &  & 51.57 & 14.76 &  & 847.55 & 78.80 &  \\
+ & kurtosis & 227.27 & 10.95 &  & 866.92 & 176.20 &  & 4018.98 & 2329.24 &  \\
+ & centroid latitude & 0.06 & 2.24 &  & 22.69 & 0.35 &  & 15.46 & 8.79 & 0.71 \\
+ & centroid longitude & 0.39 & 4.15 &  & 15.80 & 2.72 &  & 0.90 & 2.94 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{INM-CM5-0} & aspect ratio & 257.00 & 69.24 &  & 119.68 & 51.19 &  & 0.65 & 1.80 & 0.53 \\
+ & objective area & 26.65 & 71.31 &  & 71.70 & 80.82 &  & 165.95 & 436.67 &  \\
+ & kurtosis & 52.26 & 221.07 &  & 114.18 & 133.80 &  & 3.01 & 25.45 &  \\
+ & centroid latitude & 304.27 & 182.85 &  & 391.94 & 148.44 &  & 90.28 & 7.54 & 0.67 \\
+ & centroid longitude & 55.00 & 53.04 &  & 0.03 & 75.01 &  & 0.52 & 7.36 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{IPSL-CM6A-LR} & aspect ratio & 41.73 & 4.27 &  & 115.30 & 15.54 &  & 450.04 & 2.55 & 0.63 \\
+ & objective area & 507.80 & 75.51 &  & 137.37 & 71.86 &  & 570.49 & 730.88 &  \\
+ & kurtosis & 1.26 & 94.65 &  & 10.65 & 132.02 &  & 45.86 & 69.42 &  \\
+ & centroid latitude & 44.41 & 18.49 &  & 64.22 & 46.14 &  & 156.46 & 7.66 & 0.63 \\
+ & centroid longitude & 77.08 & 41.45 &  & 3.29 & 403.83 &  & 289.33 & 6.17 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{MIROC6} & aspect ratio & 8.38 & 7.86 &  & 6.06 & 13.84 &  & 19.07 & 6.55 & 0.59 \\
+ & objective area & 841.65 & 420.28 &  & 900.00 & 790.83 &  & 624.89 & 1015.18 &  \\
+ & kurtosis & 62.65 & 0.38 &  & 19.48 & 15.54 &  & 40.58 & 19.20 &  \\
+ & centroid latitude & 0.16 & 19.33 &  & 97.24 & 43.67 &  & 332.99 & 19.25 & 0.62 \\
+ & centroid longitude & 101.61 & 9.90 &  & 26.33 & 199.91 &  & 209.12 & 4.14 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{UKESM1-0-LL} & aspect ratio & 99.95 & 19.77 &  & 91.16 & 17.09 &  & 0.33 & 0.27 & 0.58 \\
+ & objective area & 0.15 & 127.42 &  & 161.29 & 91.84 &  & 67.10 & 14.83 &  \\
+ & kurtosis & 54.18 & 107.00 &  & 17.97 & 51.80 &  & 421.63 & 99.53 &  \\
+ & centroid latitude & 1.94 & 0.19 &  & 18.81 & 1.03 &  & 16.88 & 27.50 & 0.66 \\
+ & centroid longitude & 0.33 & 5.42 &  & 1.19 & 3.25 &  & 156.71 & 29.47 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{MPI-ESM1-2-HR} & aspect ratio & 1.81 & 2.84 &  & 11.33 & 1.06 &  & 116.15 & 0.01 & 0.56 \\
+ & objective area & 535.27 & 72.35 &  & 484.98 & 196.42 &  & 1046.07 & 824.85 &  \\
+ & kurtosis & 3.57 & 8.82 &  & 27.34 & 78.91 &  & 453.43 & 40.79 &  \\
+ & centroid latitude & 151.91 & 10.35 &  & 89.40 & 7.42 &  & 123.33 & 0.91 & 0.59 \\
+ & centroid longitude & 16.50 & 9.09 &  & 1.26 & 13.32 &  & 4.53 & 80.94 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{MPI-ESM1-2-LR} & aspect ratio & 3.77 & 0.56 &  & 11.93 & 0.55 &  & 242.95 & 7.78 & 0.65 \\
+ & objective area & 1030.16 & 372.84 &  & 776.32 & 568.10 &  & 1118.40 & 1266.02 &  \\
+ & kurtosis & 1.91 & 13.73 &  & 0.04 & 71.31 &  & 324.23 & 102.14 &  \\
+ & centroid latitude & 298.72 & 32.05 &  & 154.32 & 12.51 &  & 199.48 & 21.33 & 0.66 \\
+ & centroid longitude & 0.65 & 57.89 &  & 26.56 & 2.04 &  & 39.20 & 214.11 &  \\
+\cline{1-11}
+\multirow[t]{5}{*}{GFDL-CM3} & aspect ratio & 271.25 & 116.71 &  &  &  &  &  &  &  \\
+ & objective area & 6615.54 & 2364.37 &  &  &  &  &  &  &  \\
+ & kurtosis & 42.21 & 423.25 &  &  &  &  &  &  &  \\
+ & centroid latitude & 471.85 & 282.04 &  &  &  &  &  &  &  \\
+ & centroid longitude & 69.90 & 52.72 &  &  &  &  &  &  &  \\
+\cline{1-11}
+\end{longtable}
+
