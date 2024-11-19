@@ -13,7 +13,7 @@
 # Large ensemble assessment of Arctic SPV
 **[A. Kuchar](https://github.com/kuchaale), [M. Öhlert](https://github.com/maoehlert), R. Eichinger, [Ch. Jacobi](https://github.com/christophjacobi)**
 
-In review in [WCD](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-1831/).
+Published in [WCD](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-1831/).
 
 Code used to process and visualise the model and other data outputs in order to reproduce figures in the manuscript.
 Model data are available via  the Multi-Model Large Ensemble Archive
